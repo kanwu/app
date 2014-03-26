@@ -17,7 +17,13 @@ namespace app
       if (first < 0 || second < 0)
         throw new ArgumentException("I can't add negative numbers :(");
 
+
+        IDbCommand command = connection.CreateCommand();
+
+        
       connection.Open();
+      command.ExecuteNonQuery();
+
       return first + second;
     }
   }

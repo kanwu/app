@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Machine.Fakes.Moq</id>
+    <version>0.2.1.2</version>
+    <title>Machine.Fakes.Moq</title>
+    <authors>Bjoern Rochel</authors>
+    <owners>Bjoern Rochel</owners>
+    <licenseUrl>http://github.com/BjRo/Machine.Fakes/raw/dev/License.txt</licenseUrl>
+    <projectUrl>http://github.com/BjRo/Machine.Fakes</projectUrl>
+    <iconUrl>http://github.com/BjRo/Machine.Fakes/raw/dev/machine.fakes.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Machine.Fakes attempts to simplify the usage of such frameworks on top of Machine.Specifications by helping to reduce a lot of the typical fake framwork related clutter code in specifications. If you choose so, Machine.Fakes even helps you to stay mostly independent of a concrete fake framework by providing a little wrapper API and a provider model for fake frameworks.  This is the adapter for Moq 4.0.10827</description>
+    <summary>Machine.Fakes attempts to simplify the usage of such frameworks on top of Machine.Specifications by helping to reduce a lot of the typical fake framwork related clutter code in specifications. If you choose so, Machine.Fakes even helps you to stay mostly independent of a concrete fake framework by providing a little wrapper API and a provider model for fake frameworks.  This is the adapter for Moq 4.0.10827</summary>
+    <tags>tdd bdd testing unittest fakes mocks</tags>
+    <dependencies>
+      <dependency id="Machine.Fakes" version="[0.2.1.2]" />
+      <dependency id="Moq" version="[4.0.10827]" />
+    </dependencies>
+  </metadata>
+</package>
